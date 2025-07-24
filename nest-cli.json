@@ -19,6 +19,15 @@
         "tsConfigPath": "apps/logging/tsconfig.app.json"
       }
     },
+    "rider": {
+      "type": "application",
+      "root": "apps/rider",
+      "entryFile": "main",
+      "sourceRoot": "apps/rider/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/rider/tsconfig.app.json"
+      }
+    },
     "rider-service": {
       "type": "application",
       "root": "apps/rider-service",
